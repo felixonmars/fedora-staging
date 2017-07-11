@@ -1,4 +1,4 @@
-%global _commit 32225b9ad60e1fcaee81312ea521f45b6fa5c78f
+%global _commit 34d321e517524d7eb3110dee2c9d3049771ede05
 %global _shortcommit %(c=%{_commit}; echo ${c:0:7})
 
 Name:           dtksettings
@@ -45,7 +45,9 @@ Header files and libraries for %{name}
 %{_libdir}/lib*.so
 
 %changelog
-* Sat May 20 2017 Felix Yan <felixonmars@archlinux.org> - 0.1.7-1.git32225b9
+* Tue Jul 11 2017 Felix Yan <felixonmars@archlinux.org> - 0.1.7-1.git34d321e
+- Add LICENSE file
+* Mon Jul 10 2017 Felix Yan <felixonmars@archlinux.org> - 0.1.7-1.git32225b9
 - Update to 0.1.7
 * Sat May 20 2017 mosquito <sensor.wen@gmail.com> - 0.1.6-1.git63c6cb7
 - Update to 0.1.6
