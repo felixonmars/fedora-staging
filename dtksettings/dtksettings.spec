@@ -4,7 +4,7 @@
 Name:           dtksettings
 Version:        0.1.7
 Release:        1.git%{_shortcommit}%{?dist}
-Summary:        DtkSettings is a powerful tool to generate config from json
+Summary:        A powerful tool to generate config from json
 License:        GPLv3
 URL:            https://github.com/linuxdeepin/dtksettings
 Source0:        %{url}/archive/%{_commit}/%{name}-%{_commit}.tar.gz
