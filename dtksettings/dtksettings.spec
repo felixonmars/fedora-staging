@@ -4,21 +4,21 @@
 Name:           dtksettings
 Version:        0.1.7
 Release:        1.git%{_shortcommit}%{?dist}
-Summary:        A powerful tool to generate config from json
+Summary:        Dtk module to generate user configuration and UI dialog from json
 License:        GPLv3
 URL:            https://github.com/linuxdeepin/dtksettings
 Source0:        %{url}/archive/%{_commit}/%{name}-%{_commit}.tar.gz
 BuildRequires:  qt5-qtbase-devel
 
 %description
-DtkSettings is a powerful tool to generate config from json.
+This package provides a Dtk module which can generate user configuration and UI dialog from json.
 
 %package devel
 Summary:        Development package for %{name}
 Requires:       %{name}%{?_isa} = %{version}-%{release}
 
 %description devel
-Header files and libraries for %{name}
+Header files and libraries for %{name}.
 
 %prep
 %setup -q -n %{name}-%{_commit}
