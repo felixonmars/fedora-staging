@@ -11,7 +11,8 @@ Source0:        %{url}/archive/%{_commit}/%{name}-%{_commit}.tar.gz
 BuildRequires:  qt5-qtbase-devel
 
 %description
-This package provides a Dtk module which can generate user configuration and UI dialog from json.
+This package provides a Dtk module which can generate user configuration and UI
+dialog from json.
 
 %package devel
 Summary:        Development package for %{name}
